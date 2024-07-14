@@ -35,7 +35,7 @@ Feel free to modify the color schemes, add more inspirational quotes, or adjust 
 Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/NaserJamal/stopwatch/issues) if you want to contribute.
 
 ## Author
-[Naser Jamal]
+Naser Jamal
 
 ## License
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
