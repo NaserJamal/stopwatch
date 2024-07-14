@@ -32,10 +32,10 @@ No installation required! This is a client-side web application. Simply download
 Feel free to modify the color schemes, add more inspirational quotes, or adjust the timing intervals to suit your preferences. The code is well-commented and easy to understand for developers of all levels.
 
 ## Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](insert your GitHub issues link here) if you want to contribute.
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/NaserJamal/stopwatch/issues) if you want to contribute.
 
 ## Author
-[Your Name]
+[Naser Jamal]
 
 ## License
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
