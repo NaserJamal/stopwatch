@@ -82,21 +82,6 @@
             color: white;
         }
 
-        /* #timeLegend {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            text-align: center;
-            margin-top: 20px;
-            font-size: 1.2rem;
-            width: 100%;
-        }
-
-        #workingLegend, #playingLegend {
-            display: inline-block;
-            margin: 0 10px;
-        } */
-
         button:hover {
             opacity: 0.9;
             transform: scale(1.05);
@@ -513,20 +498,6 @@
             stopBtn.classList.toggle('active', !currentMode);
         }
 
-        // function formatTime(seconds) {
-        //     if (seconds < 60) {
-        //         return `${Math.round(seconds)}`;
-        //     } else if (seconds < 3600) {
-        //         const minutes = Math.floor(seconds / 60);
-        //         const remainingSeconds = Math.round(seconds % 60);
-        //         return `${minutes} ${minutes !== 1 ? '' : ''} ${remainingSeconds}:${remainingSeconds !== 1 ? '' : ''}`;
-        //     } else {
-        //         const hours = Math.floor(seconds / 3600);
-        //         const minutes = Math.round((seconds % 3600) / 60);
-        //         return `${hours} ${hours !== 1 ? '' : ''} ${minutes}:${minutes !== 1 ? '' : ''}`;
-        //     }
-        // }
-
         function formatTime(seconds) {
             const hours = Math.floor(seconds / 3600);
             const minutes = Math.floor((seconds % 3600) / 60);
@@ -538,35 +509,6 @@
 
             return `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
         }
-
-
-        // function formatTime(seconds) {
-        //     if (seconds < 60) {
-        //         return `${Math.round(seconds)} s`;
-        //     } else if (seconds < 3600) {
-        //         const minutes = Math.floor(seconds / 60);
-        //         const remainingSeconds = Math.round(seconds % 60);
-        //         return `${minutes} m${minutes !== 1 ? '' : ''} ${remainingSeconds} s${remainingSeconds !== 1 ? '' : ''}`;
-        //     } else {
-        //         const hours = Math.floor(seconds / 3600);
-        //         const minutes = Math.round((seconds % 3600) / 60);
-        //         return `${hours} h${hours !== 1 ? '' : ''} ${minutes} m${minutes !== 1 ? '' : ''}`;
-        //     }
-        // }
-
-        // function formatTime(seconds) {
-        //     if (seconds < 60) {
-        //         return `${Math.round(seconds)} seconds`;
-        //     } else if (seconds < 3600) {
-        //         const minutes = Math.floor(seconds / 60);
-        //         const remainingSeconds = Math.round(seconds % 60);
-        //         return `${minutes} minute${minutes !== 1 ? 's' : ''} and ${remainingSeconds} second${remainingSeconds !== 1 ? 's' : ''}`;
-        //     } else {
-        //         const hours = Math.floor(seconds / 3600);
-        //         const minutes = Math.round((seconds % 3600) / 60);
-        //         return `${hours} hour${hours !== 1 ? 's' : ''} and ${minutes} minute${minutes !== 1 ? 's' : ''}`;
-        //     }
-        // }
 
         function toggleTheme() {
             isDarkTheme = !isDarkTheme;
@@ -597,72 +539,7 @@
     const inspirationalQuotes = [
         // Add your 1,000 inspirational quotes here
         "The only way to do great work is to love what you do",
-        "You don’t have to be great to start, but you have to start to be great.",
-        "One day or day one. You decide.",
-        "Small deeds done are better than great deeds planned.",
-        "You are what you do, not what you say you do.",
-        "People may doubt what you say, but they will believe what you do.",
-        "It does not matter how slowly you go as long as you do not stop.",
-        "There is only one proof of ability: action.",
-        "Every day do something that will inch you closer to a better tomorrow.",
-        "If what you are doing is not moving you towards your goals, then it’s moving you away from your goals.",
-        "Little by little does the trick.",
-        "The elevator to success is out of order. You’ll have to use the stairs… one step at a time.",
-        "Someday is not a day of the week.",
-        "The secret of getting things done is to act!",
-        "Inaction breeds doubt and fear. Action breeds confidence and courage.",
-        "The way to get started is to quit talking and begin doing.",
-        "Nothing happens until something moves.",
-        "Don’t try to rush progress. Remember, a step forward, no matter how small, is a step in the right direction. Keep believing.",
-        "Go for it now. The future is promised to no one.",
-        "The greatest amount of wasted time is the time not getting started.",
-        "A year from now you will wish you had started today.",
-        "The smallest deed is better than the grandest intention.",
-        "Be great in act, as you have been in thought.",
-        "Success seems to be connected with action. Successful people keep moving. They make mistakes but don’t quit.",
-        "Every action you take is a vote for the type of person you wish to become.",
-        "Be content to act, and leave the talking to others.",
-        "It is better to take many small steps in the right direction than to make a great leap forward only to stumble backward.",
-        "Wake up early and tackle the day before it tackles you. Be on offense, not defense.",
-        "For any movement to gain momentum, it must start with a small action.",
-        "The most effective way to do it, is to do it.",
-        "Act as if everything you do makes a difference. It does.",
         "Though no one can go back and make a brand new start, anyone can start from now and make a brand new ending.",
-        "Today I will do what others won't, so tomorrow I can accomplish what others can't.",
-        "The secret of getting ahead is getting started. The secret of getting started is breaking your complex, overwhelming tasks into small manageable tasks, and then starting on the first one.",
-        "The most difficult thing is the decision to act; the rest is merely tenacity.",
-        "You never know what's around the corner. It could be everything. Or it could be nothing. You keep putting one foot in front of the other, and then one day you look back and you've climbed a mountain.",
-        "Don’t watch the clock; do what it does. Keep going.",
-        "Infuse your life with action. Don't wait for it to happen. Make it happen. Make your own future.",
-        "Act the way that you want to feel.",
-        "Even a snail will eventually reach its destination.",
-        "You cannot plow a field by turning it over in your mind. To begin, begin.",
-        "I think a lot of people dream. And while they are busy dreaming, the really happy people, the really successful people, the really interesting, powerful, engaged people? Are busy doing.",
-        "The only difference between where you are and where you want to be is the steps you haven’t taken yet.",
-        "Life is like riding a bicycle. To keep your balance you must keep moving.",
-        "The beginning is always today.",
-        "What you get by achieving your goals is not as important as what you become by achieving your goals.",
-        "Motivation is what gets you started. Habit is what keeps you going.",
-        "Nothing can stop the man with the right mental attitude from achieving his goal; nothing on earth can help the man with the wrong mental attitude.",
-        "The unfortunate thing about this world is that good habits are so much easier to give up than bad ones.",
-        "Bad habits are like a comfortable bed - easy to get into, but hard to get out of.",
-        "Feeling sorry for yourself, and your present condition is not only a waste of energy but the worst habit you could possibly have.",
-        "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
-        "You must have long-range goals to keep you from being frustrated by short-range failures.",
-        "First we form habits; then they form us. Conquer your bad habits or they will conquer you.",
-        "People with goals succeed because they know where they’re going.",
-        "You cannot expect to achieve new goals or move beyond your present circumstances unless you change.",
-        "Give your goals all you’ve got and you’ll be amazed at the energy that comes out of you.",
-        "If you chase two rabbits, both will escape.",
-        "When I feel tired, I just think about how great I will feel once I finally reach my goal.",
-        "Decide whether or not the goal is worth the risks involved. If it is, stop worrying.",
-        "If you don’t separate yourself from your distractions, your distractions will separate you from your goals and the life you want.",
-        "If opportunity doesn’t knock, build a door.",
-        "opportunity will only knock If you have a door.",
-        "To succeed, jump as quickly at opportunities as you do at conclusions.",
-        "If you believe it will work out, you will see opportunities. If you believe it won’t, you will see obstacles.",
-        "Success is where preparation and opportunity meet.",
-        "Don’t be pushed by your problems; be led by your dreams.",
         "Success is not final, failure is not fatal: it is the courage to continue that counts."
     ];
 
